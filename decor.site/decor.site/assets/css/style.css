@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(255, 252, 245);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+li{
+    list-style: none;
+}
+
+.nav-center a{
+    text-decoration: none;
+}
+
+.nav-left img{
+    width: 60px;
+}
+
+
+
+
+
+/* MAIN */
+
+
+/* Section-Hero */
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-image: url(/decor.site/assets/image/japandi-living-room-interior-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.hero-content span{
+    font-size: 30px;
+}
+
+.hero-content h1{
+    font-size: 80px;
+}
+
+.hero-content i{
+    font-size: 60px;
+}
+
+
+
+
+/* Section-Hero  End*/
+
+
+
+
+
+/* Section-Studio */
+
+#design-studio{
+    margin-top: 50px;
+}
+.design-st{
+    width: 100%;
+    height: 700px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.side{
+    width: 400px;
+    height: 500px;
+}
+.st-left{
+    /* width: 400px;
+    height: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.st-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.st-left img{
+    width: 100%;
+    height: 80%;
+}
+
+
+
+/* Section-Studio End*/
+
+
+
+
+/* Section-Choose */
+
+
+
+.choose{
+    width: 100%;
+    background-color: rgb(169, 150, 187);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    gap: 70px ;
+}
+
+.ch-content{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 70px;
+}
+
+.content{
+    margin: 0px auto;
+    width: 40%;
+}
